@@ -1,0 +1,5 @@
+data/
+.ipynb_checkpoints/
+geckodriver.log
+__pycache__
+*.pyc
