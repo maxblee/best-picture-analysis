@@ -1,5 +1,20 @@
  # Cleaning data for our Oscar Analysis
 
+ ## Installation
+
+ This requires the following dependencies:
+ - Selenium Geckodriver
+ - `pipenv` --> Optional, but required if you want to follow the installation directly
+ - Python
+
+ From here, you can install the Python dependencies:
+
+ ```sh
+ pipenv install
+ ```
+
+ Then, to 
+
  ## Scraping the Oscar data
 
  You can see the code we used to scrape the oscar data in `diversity_analysis/oscar_results.py`. 
