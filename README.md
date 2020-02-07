@@ -39,6 +39,8 @@ xsv input data.tsv --no-quoting | xsv search "movie" -s titleType > imdb_movie_d
 
 From here, we joined the Oscar data to the IMDb data in order to get the genres for each of these movies. The script we used to do this is `joining-data.ipynb`. 
 
+(Note that this requires obtaining an API key for the Open Movie Database and storing that key with the environment variable `OMDB_API`.)
+
 This process involved some manual work in handling false positives and false negatives, so the script will look fairly clunky. However, I've tried to make it at least somewhat replicable.
 
 From here, our actual analysis is in `data-analysis.ipynb`.
